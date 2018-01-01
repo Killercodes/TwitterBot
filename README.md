@@ -15,7 +15,7 @@ Where **username** is the file you just created with twitter api keys. With this
 Once the instance is created you have options to call the following
 ``` javascript
   console.info("QuoteBot is running.. \npress Ctrl+C to cancel");
-  bot.tweet("I am going to be the most intelligent thing on twitter, bow to me");
+  bot.tweet("I am going to be the most intelligent thing on twitter.");
   bot.search('#hastag since:2011-07-11',10);
   bot.listFollowers("BarakObama");
   bot.streamFilter("#twitter");
